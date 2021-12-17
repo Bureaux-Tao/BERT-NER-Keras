@@ -1,0 +1,591 @@
+ssh://bureaux@172.30.2.148:22/home/bureaux/miniconda3/envs/Bert-base/bin/python -u /home/bureaux/Projects/PulmonaryNodule/macbert_train.py
+Using TensorFlow backend.
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+结合"1、左肺上叶尖后段结节影较前稍大、密实，建议随访或进一步检查除外占位；余左肺多发结节影部分较前缩小，请随访；2.左肺上叶上舌段支气管扩张合并感染可能较前相仿；3、右肺结节影及斑片影较前相仿，炎症可能，真菌性感染待排；4、纵隔内多发淋巴结较前相仿。 ['O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-ORGAN', 'I-ORGAN', 'I-ORGAN', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-SIGN', 'I-SIGN', 'B-QUANTITY', 'I-QUANTITY', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O']
+对比2019-05-23：两肺纹理增深，左肺上叶尖后段结节影较前稍大、密实，周围表现大致相仿；余左肺多发大小不等结节影部分较前缩小；左肺下叶背段结节空洞较前不明显；左肺上叶上舌段纵隔旁局部多发囊状透亮影较前相仿，右肺上叶前段及下叶背段见结节影及斑片状模糊影较前大致相仿。 ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'O', 'O', 'B-TEXTURE', 'I-TEXTURE', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'O', 'O', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+纵隔心影基本居中，心影大小可。 ['B-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+主动脉弓旁及上腔静脉后淋巴结多发淋巴结较前相仿。 ['B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'B-ORGAN', 'I-ORGAN', 'I-ORGAN', 'B-QUANTITY', 'I-QUANTITY', 'B-ORGAN', 'I-ORGAN', 'I-ORGAN', 'O', 'O', 'O', 'O', 'O']
+纵隔肺门血管界面显示欠清。 ['B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-ORGAN', 'I-ORGAN', 'O', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+"两肺散在微小结节影，主动脉弓右前方囊性灶。 ['O', 'B-ANATOMY', 'I-ANATOMY', 'O', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+附见肝脏脂肪浸润，副脾。 ['O', 'O', 'B-ORGAN', 'I-ORGAN', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'O']
+Img62、71、97示右侧水平裂处、右中肺及左下肺结节影两肺门区未见异常密度影。 ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+胸膜未见增厚改变。 ['B-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+主动脉，肺动脉主干及其左右分支内造影剂密度均匀。 ['B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'B-DENSITY', 'I-DENSITY', 'O']
+"左下肺局限性肺不张，纵隔左移，结核待排两上肺散在炎症，较前2020-5-19吸收左肺结节，较前相仿左肺下叶肺大泡；左侧胸廓较对侧略塌陷，左下肺不张，两上肺散在斑片影，左肺多发小结节，良性增殖灶可能，左肺下叶肺大泡。 ['O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'O', 'B-DISEASE', 'I-DISEASE', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'O', 'O', 'B-DISEASE', 'I-DISEASE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'O', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'I-DISEASE', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'O', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-NATURE', 'I-NATURE', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+气管及双侧支气管通畅。 ['B-ORGAN', 'I-ORGAN', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-SIGN', 'I-SIGN', 'O']
+纵隔、肺门未见明显肿大淋巴结影。 ['B-ANATOMY', 'I-ANATOMY', 'O', 'B-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+左侧胸腔少量积液。 ['B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'O']
+两侧胸膜未见明显增厚。 ['B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+""左肺术后改变同前，请随访。 ['O', 'O', 'B-TREATMENT', 'I-TREATMENT', 'I-TREATMENT', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+右肺结节治疗后，右肺上叶磨玻璃结节及实性结节，大致同前，建议结合临床随访。 ['B-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'O', 'O', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'I-DISEASE', 'I-DISEASE', 'I-DISEASE', 'O', 'B-DISEASE', 'I-DISEASE', 'I-DISEASE', 'I-DISEASE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+右肺数枚微小结节同前，良性，请随访。 ['B-ANATOMY', 'I-ANATOMY', 'B-QUANTITY', 'I-QUANTITY', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'I-SIGN', 'O', 'O', 'O', 'B-NATURE', 'I-NATURE', 'O', 'O', 'O', 'O', 'O']
+右肺上叶炎症同前相仿，良性可能，建议随访。 ['B-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'I-ANATOMY', 'B-DISEASE', 'I-DISEASE', 'O', 'O', 'O', 'O', 'O', 'B-NATURE', 'I-NATURE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+对比2019-12-3片：左肺术后，左肺见条索影。 ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-TREATMENT', 'I-TREATMENT', 'I-TREATMENT', 'O', 'O', 'B-ANATOMY', 'I-ANATOMY', 'O', 'B-SIGN', 'I-SIGN', 'I-SIGN', 'O']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+load bert Model start!
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:131: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4185: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+load bert Model end!
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:2974: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+Input-Token (InputLayer)        (None, 150)          0
+__________________________________________________________________________________________________
+Input-Segment (InputLayer)      (None, 150)          0
+__________________________________________________________________________________________________
+Embedding-Token (TokenEmbedding [(None, 150, 768), ( 16226304    Input-Token[0][0]
+__________________________________________________________________________________________________
+Embedding-Segment (Embedding)   (None, 150, 768)     1536        Input-Segment[0][0]
+__________________________________________________________________________________________________
+Embedding-Token-Segment (Add)   (None, 150, 768)     0           Embedding-Token[0][0]
+                                                                 Embedding-Segment[0][0]
+__________________________________________________________________________________________________
+Embedding-Position (PositionEmb (None, 150, 768)     115200      Embedding-Token-Segment[0][0]
+__________________________________________________________________________________________________
+Embedding-Dropout (Dropout)     (None, 150, 768)     0           Embedding-Position[0][0]
+__________________________________________________________________________________________________
+Embedding-Norm (LayerNormalizat (None, 150, 768)     1536        Embedding-Dropout[0][0]
+__________________________________________________________________________________________________
+Encoder-1-MultiHeadSelfAttentio (None, 150, 768)     2362368     Embedding-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-1-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-1-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-1-MultiHeadSelfAttentio (None, 150, 768)     0           Embedding-Norm[0][0]
+                                                                 Encoder-1-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-1-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-1-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-1-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-1-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-1-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-1-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-1-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-1-MultiHeadSelfAttention-
+                                                                 Encoder-1-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-1-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-1-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-2-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-1-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-2-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-2-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-2-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-1-FeedForward-Norm[0][0]
+                                                                 Encoder-2-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-2-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-2-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-2-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-2-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-2-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-2-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-2-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-2-MultiHeadSelfAttention-
+                                                                 Encoder-2-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-2-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-2-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-3-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-2-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-3-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-3-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-3-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-2-FeedForward-Norm[0][0]
+                                                                 Encoder-3-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-3-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-3-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-3-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-3-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-3-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-3-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-3-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-3-MultiHeadSelfAttention-
+                                                                 Encoder-3-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-3-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-3-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-4-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-3-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-4-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-4-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-4-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-3-FeedForward-Norm[0][0]
+                                                                 Encoder-4-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-4-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-4-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-4-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-4-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-4-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-4-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-4-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-4-MultiHeadSelfAttention-
+                                                                 Encoder-4-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-4-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-4-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-5-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-4-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-5-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-5-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-5-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-4-FeedForward-Norm[0][0]
+                                                                 Encoder-5-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-5-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-5-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-5-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-5-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-5-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-5-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-5-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-5-MultiHeadSelfAttention-
+                                                                 Encoder-5-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-5-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-5-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-6-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-5-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-6-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-6-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-6-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-5-FeedForward-Norm[0][0]
+                                                                 Encoder-6-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-6-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-6-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-6-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-6-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-6-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-6-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-6-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-6-MultiHeadSelfAttention-
+                                                                 Encoder-6-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-6-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-6-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-7-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-6-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-7-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-7-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-7-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-6-FeedForward-Norm[0][0]
+                                                                 Encoder-7-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-7-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-7-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-7-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-7-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-7-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-7-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-7-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-7-MultiHeadSelfAttention-
+                                                                 Encoder-7-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-7-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-7-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-8-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-7-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-8-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-8-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-8-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-7-FeedForward-Norm[0][0]
+                                                                 Encoder-8-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-8-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-8-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-8-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-8-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-8-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-8-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-8-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-8-MultiHeadSelfAttention-
+                                                                 Encoder-8-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-8-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-8-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-9-MultiHeadSelfAttentio (None, 150, 768)     2362368     Encoder-8-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-9-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-9-MultiHeadSelfAttention[
+__________________________________________________________________________________________________
+Encoder-9-MultiHeadSelfAttentio (None, 150, 768)     0           Encoder-8-FeedForward-Norm[0][0]
+                                                                 Encoder-9-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-9-MultiHeadSelfAttentio (None, 150, 768)     1536        Encoder-9-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-9-FeedForward (FeedForw (None, 150, 768)     4722432     Encoder-9-MultiHeadSelfAttention-
+__________________________________________________________________________________________________
+Encoder-9-FeedForward-Dropout ( (None, 150, 768)     0           Encoder-9-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-9-FeedForward-Add (Add) (None, 150, 768)     0           Encoder-9-MultiHeadSelfAttention-
+                                                                 Encoder-9-FeedForward-Dropout[0][
+__________________________________________________________________________________________________
+Encoder-9-FeedForward-Norm (Lay (None, 150, 768)     1536        Encoder-9-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-10-MultiHeadSelfAttenti (None, 150, 768)     2362368     Encoder-9-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-10-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-10-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-10-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-9-FeedForward-Norm[0][0]
+                                                                 Encoder-10-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-10-MultiHeadSelfAttenti (None, 150, 768)     1536        Encoder-10-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-10-FeedForward (FeedFor (None, 150, 768)     4722432     Encoder-10-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-10-FeedForward-Dropout  (None, 150, 768)     0           Encoder-10-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-10-FeedForward-Add (Add (None, 150, 768)     0           Encoder-10-MultiHeadSelfAttention
+                                                                 Encoder-10-FeedForward-Dropout[0]
+__________________________________________________________________________________________________
+Encoder-10-FeedForward-Norm (La (None, 150, 768)     1536        Encoder-10-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-11-MultiHeadSelfAttenti (None, 150, 768)     2362368     Encoder-10-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-11-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-11-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-11-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-10-FeedForward-Norm[0][0]
+                                                                 Encoder-11-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-11-MultiHeadSelfAttenti (None, 150, 768)     1536        Encoder-11-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-11-FeedForward (FeedFor (None, 150, 768)     4722432     Encoder-11-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-11-FeedForward-Dropout  (None, 150, 768)     0           Encoder-11-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-11-FeedForward-Add (Add (None, 150, 768)     0           Encoder-11-MultiHeadSelfAttention
+                                                                 Encoder-11-FeedForward-Dropout[0]
+__________________________________________________________________________________________________
+Encoder-11-FeedForward-Norm (La (None, 150, 768)     1536        Encoder-11-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+Encoder-12-MultiHeadSelfAttenti (None, 150, 768)     2362368     Encoder-11-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+Encoder-12-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-12-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-12-MultiHeadSelfAttenti (None, 150, 768)     0           Encoder-11-FeedForward-Norm[0][0]
+                                                                 Encoder-12-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-12-MultiHeadSelfAttenti (None, 150, 768)     1536        Encoder-12-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-12-FeedForward (FeedFor (None, 150, 768)     4722432     Encoder-12-MultiHeadSelfAttention
+__________________________________________________________________________________________________
+Encoder-12-FeedForward-Dropout  (None, 150, 768)     0           Encoder-12-FeedForward[0][0]
+__________________________________________________________________________________________________
+Encoder-12-FeedForward-Add (Add (None, 150, 768)     0           Encoder-12-MultiHeadSelfAttention
+                                                                 Encoder-12-FeedForward-Dropout[0]
+__________________________________________________________________________________________________
+Encoder-12-FeedForward-Norm (La (None, 150, 768)     1536        Encoder-12-FeedForward-Add[0][0]
+__________________________________________________________________________________________________
+bidirectional_1 (Bidirectional) (None, 150, 256)     918528      Encoder-12-FeedForward-Norm[0][0]
+__________________________________________________________________________________________________
+time_distributed_1 (TimeDistrib (None, 150, 33)      8481        bidirectional_1[0][0]
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 150, 33)      0           time_distributed_1[0][0]
+__________________________________________________________________________________________________
+crf_1 (CRF)                     (None, 150, 33)      2277        dropout_1[0][0]
+==================================================================================================
+Total params: 102,328,326
+Trainable params: 102,328,326
+Non-trainable params: 0
+__________________________________________________________________________________________________
+WARNING:tensorflow:From /home/bureaux/miniconda3/envs/Bert-base/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Epoch 1/500
+807/807 [==============================] - 66s 82ms/step - loss: 28.6777 - crf_accuracy: 0.0446
+
+Epoch 00001: loss improved from inf to 28.67769, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 2/500
+807/807 [==============================] - 42s 52ms/step - loss: 28.4567 - crf_accuracy: 0.0992
+
+Epoch 00002: loss improved from 28.67769 to 28.45669, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 3/500
+807/807 [==============================] - 41s 51ms/step - loss: 28.0707 - crf_accuracy: 0.2320
+
+Epoch 00003: loss improved from 28.45669 to 28.07074, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 4/500
+807/807 [==============================] - 42s 52ms/step - loss: 27.6276 - crf_accuracy: 0.3644
+
+Epoch 00004: loss improved from 28.07074 to 27.62758, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 5/500
+807/807 [==============================] - 42s 52ms/step - loss: 27.2986 - crf_accuracy: 0.4330
+
+Epoch 00005: loss improved from 27.62758 to 27.29858, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 6/500
+807/807 [==============================] - 42s 52ms/step - loss: 27.0090 - crf_accuracy: 0.5435
+
+Epoch 00006: loss improved from 27.29858 to 27.00903, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 7/500
+807/807 [==============================] - 41s 51ms/step - loss: 26.7393 - crf_accuracy: 0.6236
+
+Epoch 00007: loss improved from 27.00903 to 26.73926, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 8/500
+807/807 [==============================] - 41s 51ms/step - loss: 26.5280 - crf_accuracy: 0.6639
+
+Epoch 00008: loss improved from 26.73926 to 26.52804, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 9/500
+807/807 [==============================] - 42s 52ms/step - loss: 26.3680 - crf_accuracy: 0.6901
+
+Epoch 00009: loss improved from 26.52804 to 26.36799, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 10/500
+807/807 [==============================] - 42s 52ms/step - loss: 26.2220 - crf_accuracy: 0.7233
+
+Epoch 00010: loss improved from 26.36799 to 26.22202, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 11/500
+807/807 [==============================] - 42s 52ms/step - loss: 26.1049 - crf_accuracy: 0.7657
+
+Epoch 00011: loss improved from 26.22202 to 26.10488, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 12/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.9875 - crf_accuracy: 0.8063
+
+Epoch 00012: loss improved from 26.10488 to 25.98746, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 13/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.8821 - crf_accuracy: 0.8374
+
+Epoch 00013: loss improved from 25.98746 to 25.88212, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 14/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.7985 - crf_accuracy: 0.8556
+
+Epoch 00014: loss improved from 25.88212 to 25.79846, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 15/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.7347 - crf_accuracy: 0.8726
+
+Epoch 00015: loss improved from 25.79846 to 25.73467, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 16/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.6731 - crf_accuracy: 0.8843
+
+Epoch 00016: loss improved from 25.73467 to 25.67306, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 17/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.6210 - crf_accuracy: 0.8954
+
+Epoch 00017: loss improved from 25.67306 to 25.62098, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 18/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.5727 - crf_accuracy: 0.9017
+
+Epoch 00018: loss improved from 25.62098 to 25.57271, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 19/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.5465 - crf_accuracy: 0.9051
+
+Epoch 00019: loss improved from 25.57271 to 25.54648, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 20/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.5053 - crf_accuracy: 0.9118
+
+Epoch 00020: loss improved from 25.54648 to 25.50527, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 21/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.4715 - crf_accuracy: 0.9187
+
+Epoch 00021: loss improved from 25.50527 to 25.47146, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 22/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.4456 - crf_accuracy: 0.9277
+
+Epoch 00022: loss improved from 25.47146 to 25.44555, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 23/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.4171 - crf_accuracy: 0.9312
+
+Epoch 00023: loss improved from 25.44555 to 25.41706, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 24/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.3993 - crf_accuracy: 0.9354
+
+Epoch 00024: loss improved from 25.41706 to 25.39930, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 25/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.3814 - crf_accuracy: 0.9390
+
+Epoch 00025: loss improved from 25.39930 to 25.38143, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 26/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.3661 - crf_accuracy: 0.9395
+
+Epoch 00026: loss improved from 25.38143 to 25.36614, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 27/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.3461 - crf_accuracy: 0.9460
+
+Epoch 00027: loss improved from 25.36614 to 25.34611, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 28/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.3315 - crf_accuracy: 0.9484
+
+Epoch 00028: loss improved from 25.34611 to 25.33153, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 29/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.3149 - crf_accuracy: 0.9533
+
+Epoch 00029: loss improved from 25.33153 to 25.31487, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 30/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.3051 - crf_accuracy: 0.9527
+
+Epoch 00030: loss improved from 25.31487 to 25.30509, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 31/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2936 - crf_accuracy: 0.9554
+
+Epoch 00031: loss improved from 25.30509 to 25.29363, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 32/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2822 - crf_accuracy: 0.9584
+
+Epoch 00032: loss improved from 25.29363 to 25.28221, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 33/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2714 - crf_accuracy: 0.9627
+
+Epoch 00033: loss improved from 25.28221 to 25.27138, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 34/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.2677 - crf_accuracy: 0.9618
+
+Epoch 00034: loss improved from 25.27138 to 25.26774, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 35/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2513 - crf_accuracy: 0.9656
+
+Epoch 00035: loss improved from 25.26774 to 25.25130, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 36/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.2427 - crf_accuracy: 0.9694
+
+Epoch 00036: loss improved from 25.25130 to 25.24271, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 37/500
+807/807 [==============================] - 42s 52ms/step - loss: 25.2302 - crf_accuracy: 0.9720
+
+Epoch 00037: loss improved from 25.24271 to 25.23017, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 38/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.2236 - crf_accuracy: 0.9745
+
+Epoch 00038: loss improved from 25.23017 to 25.22358, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 39/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2135 - crf_accuracy: 0.9772
+
+Epoch 00039: loss improved from 25.22358 to 25.21350, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 40/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2135 - crf_accuracy: 0.9760
+
+Epoch 00040: loss did not improve from 25.21350
+Epoch 41/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.2123 - crf_accuracy: 0.9761
+
+Epoch 00041: loss improved from 25.21350 to 25.21226, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 42/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.2125 - crf_accuracy: 0.9758
+
+Epoch 00042: loss did not improve from 25.21226
+Epoch 43/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.2225 - crf_accuracy: 0.9718
+
+Epoch 00043: loss did not improve from 25.21226
+Epoch 44/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.2402 - crf_accuracy: 0.9712
+
+Epoch 00044: loss did not improve from 25.21226
+Epoch 45/500
+807/807 [==============================] - 36s 45ms/step - loss: 25.2193 - crf_accuracy: 0.9756
+
+Epoch 00045: loss did not improve from 25.21226
+Epoch 46/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.2328 - crf_accuracy: 0.9750
+
+Epoch 00046: loss did not improve from 25.21226
+Epoch 47/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.2275 - crf_accuracy: 0.9737
+
+Epoch 00047: loss did not improve from 25.21226
+Epoch 48/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.2195 - crf_accuracy: 0.9744
+
+Epoch 00048: loss did not improve from 25.21226
+Epoch 49/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1966 - crf_accuracy: 0.9798
+
+Epoch 00049: loss improved from 25.21226 to 25.19661, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 50/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.1952 - crf_accuracy: 0.9807
+
+Epoch 00050: loss improved from 25.19661 to 25.19517, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 51/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1796 - crf_accuracy: 0.9845
+
+Epoch 00051: loss improved from 25.19517 to 25.17955, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 52/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1708 - crf_accuracy: 0.9854
+
+Epoch 00052: loss improved from 25.17955 to 25.17085, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 53/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1640 - crf_accuracy: 0.9878
+
+Epoch 00053: loss improved from 25.17085 to 25.16399, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 54/500
+807/807 [==============================] - 47s 58ms/step - loss: 25.1628 - crf_accuracy: 0.9878
+
+Epoch 00054: loss improved from 25.16399 to 25.16285, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 55/500
+807/807 [==============================] - 46s 57ms/step - loss: 25.1573 - crf_accuracy: 0.9883
+
+Epoch 00055: loss improved from 25.16285 to 25.15726, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 56/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1559 - crf_accuracy: 0.9895
+
+Epoch 00056: loss improved from 25.15726 to 25.15587, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 57/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.1565 - crf_accuracy: 0.9903
+
+Epoch 00057: loss did not improve from 25.15587
+Epoch 58/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1510 - crf_accuracy: 0.9899
+
+Epoch 00058: loss improved from 25.15587 to 25.15101, saving model to ./models/pulmonary_chinese_macbert_base_ner.h5
+Epoch 59/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1537 - crf_accuracy: 0.9902
+
+Epoch 00059: loss did not improve from 25.15101
+Epoch 60/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.1526 - crf_accuracy: 0.9903
+
+Epoch 00060: loss did not improve from 25.15101
+Epoch 61/500
+807/807 [==============================] - 43s 53ms/step - loss: 25.1515 - crf_accuracy: 0.9900
+
+Epoch 00061: loss did not improve from 25.15101
+Epoch 62/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.1513 - crf_accuracy: 0.9897
+
+Epoch 00062: loss did not improve from 25.15101
+Epoch 63/500
+807/807 [==============================] - 44s 54ms/step - loss: 25.1572 - crf_accuracy: 0.9877
+
+Epoch 00063: loss did not improve from 25.15101
+Epoch 64/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1709 - crf_accuracy: 0.9874
+
+Epoch 00064: loss did not improve from 25.15101
+Epoch 65/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1631 - crf_accuracy: 0.9848
+
+Epoch 00065: loss did not improve from 25.15101
+Epoch 66/500
+807/807 [==============================] - 43s 54ms/step - loss: 25.1593 - crf_accuracy: 0.9896
+
+Epoch 00066: loss did not improve from 25.15101
+Epoch 67/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1605 - crf_accuracy: 0.9871
+
+Epoch 00067: loss did not improve from 25.15101
+Epoch 68/500
+807/807 [==============================] - 44s 55ms/step - loss: 25.1707 - crf_accuracy: 0.9864
+
+Epoch 00068: loss did not improve from 25.15101
+Epoch 00068: early stopping
+
+进程已结束,退出代码0
