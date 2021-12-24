@@ -1,0 +1,11 @@
+           precision    recall  f1-score   support
+
+  ANATOMY     0.7913    0.8102    0.8007       880
+  DISEASE     0.7124    0.7970    0.7523       404
+  TESTLAB     0.7760    0.8739    0.8220       111
+     DRUG     0.9048    0.9091    0.9069       209
+TESTIMAGE     0.8224    0.8462    0.8341       104
+OPERATION     0.7100    0.7474    0.7282        95
+
+micro avg     0.7815    0.8214    0.8010      1803
+macro avg     0.7834    0.8214    0.8016      1803
